@@ -3,9 +3,23 @@
   margin: 30px auto;
 }
 
+.App h1 {
+  text-align: center;
+  color: white;
+}
+
 .App footer {
   font-size: 16px;
   margin: 20px 0;
-  color: #2c1908;
+  color: white;
   font-weight: bold;
+}
+
+.App a {
+  color: red;
+}
+
+.App a :hover {
+  cursor: pointer;
+  color: aquamarine;
 }
