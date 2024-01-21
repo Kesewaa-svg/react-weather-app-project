@@ -42,10 +42,10 @@
   color: rgb(33, 33, 33);
 }
 
-.Weather img {
+.Weather canvas {
   margin-right: 10px;
-  width: 54px;
-  height: 50px;
+  margin-top: 5px;
+
   display: inline-block;
 }
 

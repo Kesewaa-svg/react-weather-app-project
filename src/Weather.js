@@ -13,8 +13,7 @@ export default function Weather(props) {
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      iconUrl:
-        "https://lh3.googleusercontent.com/k0gAYlLrKnJ4Oxtwbs1XRM5cnjXgiUMXx9ClMugpC34_4D45DRTExwUPHa0UpUo4lRy0j1BLPgoK8EV6LkKFvdzQWA=s60",
+      icon: response.data.weather[0].description,
       wind: response.data.wind.speed,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
