@@ -1,0 +1,8 @@
+.WeatherForecast-temperature-min {
+  opacity: 0.9;
+  margin-left: 5px;
+}
+
+.WeatherForecast-temperature-max {
+  font-weight: bold;
+}
